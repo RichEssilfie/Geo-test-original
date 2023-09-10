@@ -9,7 +9,7 @@ pipeline {
      stage ('maven install'){
          steps{
             sh 'opt/maven/bin/mvn install'
-            sh  'echo hi'
+            
          }
      }  
      stage ('maven package'){
