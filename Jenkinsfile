@@ -17,7 +17,7 @@ pipeline {
      }  
      stage ('maven package'){
          steps{
-            'mvn package'
+            'maven package'
          }
      } 
 
