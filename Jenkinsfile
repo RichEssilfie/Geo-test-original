@@ -26,7 +26,8 @@ pipeline {
             classifier: '', file: 'target/bioMedical-0.0.2-SNAPSHOT.jar', 
             type: 'jar']], credentialsId: 'NexusID', groupId: 'qa',
              nexusUrl: '198.58.119.40:8081', nexusVersion: 'nexus3', 
-             protocol: 'http', repository: 'richessil-repo', version: '0.0.2-SNAPSHOT'
+             protocol: 'http', repository: 'richessil-repo', 
+             version: '0.0.2-SNAPSHOT'
         }
     }
    }
